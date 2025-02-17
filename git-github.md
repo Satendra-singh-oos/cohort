@@ -122,3 +122,13 @@ Step3 :- Navigate to the folder right click and open with you code editor
 ---
 
 
+## Now Let's start with git and github and push some code in this repo as you successfully cloned 
+
+ - In this section you will learn what the branching, merging, what are the practices we follow (PS 💡you will learn thing's while doing . ). 
+
+ - Before starting first and last rule never push anything in main branch , we will also protect the branch and learn how to do that we can see on the go.
+
+Let's understand what is the branch in git :-
+
+->  
+
