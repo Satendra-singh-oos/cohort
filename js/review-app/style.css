@@ -4,9 +4,11 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
 body {
   background-color: #a561ff;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -15,6 +17,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .feedback-section {
@@ -22,6 +25,7 @@ body {
   padding: 10px;
   text-align: center;
 }
+
 textarea {
   width: 100%;
   height: 100px;
@@ -52,6 +56,8 @@ button {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background: #cfe3ff;
   color: black;
   padding: 15px;
@@ -64,4 +70,30 @@ button {
 
 .card:hover {
   transform: scale(1.05);
+}
+
+.star {
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+.one {
+  color: #fff4b5;
+}
+
+.two {
+  color: #feffa7;
+}
+
+.three {
+  color: #feee91;
+}
+
+.four {
+  color: #fada7a;
+}
+
+.five {
+  color: #efb036;
 }
